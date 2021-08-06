@@ -15,6 +15,7 @@ const videoSchema = new Schema(
       type: String,
       require: true,
       trim: true,
+      unique: true,
     },
   },
   {
